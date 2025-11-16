@@ -1,0 +1,138 @@
+[
+  {
+    "money": 980,
+    "score": 960,
+    "victory": false,
+    "reason": "No quedan pedidos disponibles."
+  },
+  {
+    "money": 1316,
+    "score": 1316,
+    "victory": false,
+    "reason": "No quedan pedidos disponibles."
+  },
+  {
+    "money": 0,
+    "score": 0,
+    "victory": false,
+    "reason": "Se acab\u00f3 la jornada."
+  },
+  {
+    "money": 1320,
+    "score": 1320,
+    "victory": false,
+    "reason": "Todos los pedidos entregados pero no alcanzaste la meta."
+  },
+  {
+    "money": 0,
+    "score": -100,
+    "victory": false,
+    "reason": "No quedan pedidos disponibles."
+  },
+  {
+    "money": 220,
+    "score": 140,
+    "victory": false,
+    "reason": "No quedan pedidos disponibles."
+  },
+  {
+    "money": 260,
+    "score": 180,
+    "victory": false,
+    "reason": "No quedan pedidos disponibles."
+  },
+  {
+    "money": 700,
+    "score": 660,
+    "victory": false,
+    "reason": "Todos los pedidos entregados pero no alcanzaste la meta."
+  },
+  {
+    "money": 1125,
+    "score": 1225,
+    "victory": true,
+    "reason": "\u00a1Todos los pedidos entregados y meta alcanzada!"
+  },
+  {
+    "money": 1125,
+    "score": 1225,
+    "victory": true,
+    "reason": "\u00a1Todos los pedidos entregados y meta alcanzada!"
+  },
+  {
+    "money": 220,
+    "score": 140,
+    "victory": false,
+    "reason": "No quedan pedidos disponibles."
+  },
+  {
+    "human_money": 0,
+    "cpu_money": 1110,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  },
+  {
+    "human_money": 0,
+    "cpu_money": 1110,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  },
+  {
+    "human_money": 1125,
+    "cpu_money": 0,
+    "winner": "Jugador HUMANO",
+    "reason": "\u00a1Todos los pedidos entregados y meta alcanzada!",
+    "victory": true
+  },
+  {
+    "human_money": 180,
+    "cpu_money": 930,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  },
+  {
+    "human_money": 0,
+    "cpu_money": 1110,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  },
+  {
+    "human_money": 0,
+    "cpu_money": 1110,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  },
+  {
+    "human_money": 0,
+    "cpu_money": 1110,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  },
+  {
+    "human_money": 1125,
+    "cpu_money": 0,
+    "winner": "Jugador HUMANO",
+    "reason": "\u00a1Todos los pedidos entregados y meta alcanzada!",
+    "victory": true
+  },
+  {
+    "human_money": 0,
+    "cpu_money": 1110,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  },
+  {
+    "human_money": 0,
+    "cpu_money": 1110,
+    "winner": "CPU",
+    "reason": "Se acab\u00f3 la jornada.",
+    "victory": false
+  }
+]
