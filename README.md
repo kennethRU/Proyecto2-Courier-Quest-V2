@@ -1,4 +1,4 @@
-                                                                                Proyecto courier Quest
+                                                        Proyecto courier Quest
 
 Este proyecto es un juego desarrollado en Python utilizando la librería Pygame. Incluye módulos para manejar la lógica del juego, inventario, clima, persistencia de datos y una interfaz de usuario.
 
@@ -17,6 +17,7 @@ Características principales:
 -Sistema de stamina mejorado con bloqueo de movimiento y recuperación (game.py)
 -Caminos ponderados y recalculo automático de rutas (game.py)
 -Reglas de aceptación, entrega y cancelación de pedidos (game.py)
+
 
 
 Estructura del Proyecto 
@@ -46,6 +47,9 @@ Estructura del Proyecto
 │── requirements.txt    # Dependencias del proyecto
 
 │── .venv/              # Entorno virtual de Python
+
+│── Las carpetas api_cache, _pycache _ y data se crean cada vez que se compila el juego, en estas se guarda la cache, y en data los .json de la api como el historial(al acabar la partida) los pedidos(que estan en la api) el weather(que esta en la api), la ciudad(que esta en la api)
+
 
 
 CPU AI — Resumen de Métodos por Dificultad
@@ -110,32 +114,53 @@ En la primer pantalla del juego(escoger dificultad):
 3 : dificultad dificil 
 
 segunda pantalla (pantalla de juego): 
+
 ↑ ↓ ← → : Mover al jugador por la ciudad.
+
 A : Aceptar y recoger el pedido cercano
+
 D : Entregar el pedido actualmente seleccionado en el inventario
+
 c : Cancelar el pedido actualmente seleccionado
+
 [ : Mover el cursor del inventario hacia atras
+
 ] : Mover el cursor del inventario hacia adelante
+
 1 : Vista de inventario "natural"
+
 2 : Vista de inventario por "prioridad"
+
 3 : Vista de inventario por "deadline" (hora de entrega)
+
 u : Deshacer acción (hasta 20 pasos)
+
 s : Guardar la partida actual
+
 L : Cargar la partida guardada
+
 R : Reiniciar el juego (solo si el juego terminó)
+
 H : Mostrar historial de partidas (solo si el juego terminó)
-ESC : Si estás viendo el historial
+
+ESC : 
  - cerrar historial. Si estás en el juego
  - salir del juego
 
 
 Desarrollo 
 Models → Define las estructuras de datos
+
 Game / UI → Contienen la lógica principal y la interfaz
+
 Persistence → Permite guardar y cargar partidas
+
 Weather → Añade realismo dinámico con clima
+
 Utils / Sorting → Encapsulan funciones auxiliares y algoritmos
+
 Game → Ahora incluye lógica de CPU, stamina dinámica, y rutas ponderadas.
+
 
 Licencias/Uso
 Proyecto de uso academico y libre de modificaciones
